@@ -1,0 +1,10 @@
+name: StoreHealth
+main: me.ice374.HealthJarMain
+version: 1.1.5
+
+description: >
+             Health Storage System by ice374.
+             
+commands:
+  hat:
+    description: type /hat while holding a block to place it on your head.
