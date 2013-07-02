@@ -1,0 +1,12 @@
+name: Volcano
+version: 1.0
+main: me.ice374.volcano.Main
+author: ice374
+description: Testing out plugin
+commands:
+  checkplayer:
+    description: Check for player name in config.
+  addplayer:
+    description: Add a player's name to config
+  addbutton:
+    description: Set's the excalibur button @ the players pointer position
