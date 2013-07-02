@@ -1,0 +1,14 @@
+name: TregPack
+version: 0.3
+main: me.ice374.tregpack.TregPackMain
+author: ice374
+description: A plugin pack for Tregmine :)
+commands:
+  hat:
+    description: Type /hat while holding a block to wear it
+    
+  creep:
+    description: Play creeper hissing sound to all online players
+
+  fireworks:
+    description: Shoot fireworks at each player's current position
