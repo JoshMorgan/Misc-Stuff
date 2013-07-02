@@ -1,0 +1,18 @@
+name: TregBAY
+main: me.ice374.tregbay.tregbaymain
+version: build.131
+
+description: >
+             TregBAY
+             
+commands:
+  auction:
+    description: Auction's off the item in your hand.
+  bid:
+    description: Bid on the specified players auction.
+    
+    
+ 
+  creephiss:
+    description: Misc Command for someone like richard.
+    
