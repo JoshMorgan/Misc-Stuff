@@ -29,23 +29,24 @@ public class SayCommand extends AbstractCommand
     @Override
     public boolean handlePlayer(TregminePlayer player, String[] args)
     {
-        Server server = player.getServer();
-        String msg = argsToMessage(args);
+        if(player.isAdmin()){
+            Server server = player.getServer();
+            String msg = argsToMessage(args);
 
-        server.broadcastMessage("<" + RED + "GOD" + WHITE + "> " + LIGHT_PURPLE
-                + msg);
+            server.broadcastMessage("<" + RED + "GOD" + WHITE + "> " + LIGHT_PURPLE
+                    + msg);
 
-        LOGGER.info(player.getName() + ": <GOD> " + msg);
+            LOGGER.info(player.getName() + ": <GOD> " + msg);
 
-        Player[] players = server.getOnlinePlayers();
-        for (Player p : players) {
-            TregminePlayer current = tregmine.getPlayer((p.getName()));
-            if (current.isAdmin()) {
-                current.sendMessage(DARK_AQUA + "/say used by: "
-                        + player.getChatName());
+            Player[] players = server.getOnlinePlayers();
+            for (Player p : players) {
+                TregminePlayer current = tregmine.getPlayer((p.getName()));
+                if (current.isAdmin()) {
+                    current.sendMessage(DARK_AQUA + "/say used by: "
+                            + player.getChatName());
+                }
             }
         }
-
         return true;
     }
 
