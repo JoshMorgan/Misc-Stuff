@@ -1,0 +1,10 @@
+name: LastOn
+main: me.ice374.laston.Main
+version: 1
+author: ice374
+description: LastOn
+commands:
+   laston:
+      description: LastOn for Tregmine.
+      usage: |
+         /laston <playe>

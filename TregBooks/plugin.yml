@@ -1,0 +1,13 @@
+name: TregBooks
+version: 1.0
+main: me.ice374.tregbooks.Main
+author: ice374
+description: A book plugin made for Tregmine
+commands:
+  savebook:
+    description: Save the book in your hand.
+    usage: "Correct usage: /<command> <book name>"
+    
+  book:
+    description: Load the specified book.
+    usage: "Correct usage: /<command> <rules|commands|ranks|info>"

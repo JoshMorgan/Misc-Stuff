@@ -1,0 +1,8 @@
+name: GetIP
+version: 1.0
+main: me.ice374.playerip.GetIp
+author: StrifeTamer
+description: GetIP by StrifeTamer
+commands:
+  getip:
+    description: /GetIP <player>

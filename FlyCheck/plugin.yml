@@ -1,0 +1,7 @@
+name: FlyCheck
+version: 43
+main: me.ice374.fixes.main
+author: ice374
+description: Check if player is flying
+commands:
+  

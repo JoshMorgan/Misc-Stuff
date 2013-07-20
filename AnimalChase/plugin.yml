@@ -1,0 +1,10 @@
+name: GiantHuntstuff
+version: 1.0
+main: me.ice374.animalchase.Main
+author: ice374
+description: GiantHunt by ice374.
+commands:
+  gianthunt:
+    description: spawn giant
+  excalibur:
+    description: spawn excalibur

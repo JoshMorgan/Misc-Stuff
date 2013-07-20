@@ -1,0 +1,10 @@
+name: FirstJoinTp
+main: me.ice374.FJTP.TpOnJoin
+version: 1
+author: ice374
+description: FirstJoinTp
+commands:
+   SetFirstSpawn:
+      description: Set spawn for first time players.
+      usage: |
+         /SetFirstSpawn

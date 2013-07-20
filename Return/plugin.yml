@@ -1,0 +1,8 @@
+name: Return
+version: 1.0
+main: me.ice374.returncmd.Return
+author: ice374
+description: A simple return on death command for Tregmine
+commands:
+  return:
+    description: Return to death point
